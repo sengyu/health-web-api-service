@@ -1,5 +1,7 @@
 package sen.shen.api.web.model;
 
+import java.util.Date;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -20,4 +22,9 @@ public class BloodPressureDto {
 	// 心跳
 	private Integer heartbeat;
 
+	// 建立日期
+	private Date createDate;
+	
+	// 建立時間點
+	private DayEnum createTodayEnum;
 }
